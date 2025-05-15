@@ -10,8 +10,9 @@ Server HTTP: 192.168.2.100
 Gateway/router verso l'esterno: 200.200.200.1/24
 
 
-Comando su router per configurare un’interfaccia: Router(config)# interface g0/0
+Comando su router per configurare un’interfaccia: 
 ````
+Router(config)# interface g0/0
 Router(config-if)# ip address 192.168.1.1 255.255.255.0
 Router(config-if)# no shutdown
 ````
